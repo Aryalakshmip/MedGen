@@ -1,0 +1,21 @@
+# Deep Learning Framework
+torch>=1.13.0
+torchvision>=0.14.0
+
+# Natural Language Processing & Pretrained Transformers
+transformers>=4.25.0
+nltk>=3.8.0
+bert-score>=0.3.12
+
+# Scientific Computing & Clinical Evaluation Metrics
+scikit-learn>=1.1.0
+numpy>=1.22.0
+pandas>=1.4.0
+
+# Computer Vision & Visualization
+opencv-python>=4.6.0
+Pillow>=9.2.0
+matplotlib>=3.6.0
+
+# Utilities
+tqdm>=4.64.0

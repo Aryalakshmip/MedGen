@@ -1,0 +1,2 @@
+Average Precision,Average Recall,Average F1
+tensor(0.8612),tensor(0.8796),tensor(0.8700)

@@ -1,0 +1,102 @@
+# ==============================================================================
+# Byte-compiled / optimized / DLL files
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==============================================================================
+# Jupyter Notebooks & IPython
+# ==============================================================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# ==============================================================================
+# Virtual Environments & Packaging
+# ==============================================================================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==============================================================================
+# IDEs & OS Files
+# ==============================================================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ==============================================================================
+# Model Weights, Checkpoints & Outputs
+# ==============================================================================
+*.pth
+*.pt
+*.bin
+*.ckpt
+*.onnx
+results/**/*.pth
+results/**/*.pt
+models/**/*.pth
+records/
+output_visualizations/
+
+# Keep results directory structure
+!results/.gitkeep
+!results/**/.gitkeep
+
+# ==============================================================================
+# Medical Datasets & Large Assets
+# ==============================================================================
+# Exclude raw image folders while retaining code & annotations
+data/iu_xray/images/
+data/mimic_cxr/images/
+data/**/*.png
+data/**/*.jpg
+data/**/*.jpeg
+*.dcm
+*.tar.gz
+*.zip
+
+# Preserve code in data directories
+!data/iu_xray/xai.py
+
+# ==============================================================================
+# Large Benchmark Evaluation Artifacts & Prediction Dumps
+# ==============================================================================
+bertscore_results.csv
+res*.csv
+gts.csv
+
+# ==============================================================================
+# Logs & Testing
+# ==============================================================================
+*.log
+pip-log.txt
+.coverage
+htmlcov/
+.pytest_cache/
