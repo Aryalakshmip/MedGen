@@ -3,7 +3,6 @@
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.13%2B-orange.svg)](https://pytorch.org/)
 [![HuggingFace Transformers](https://img.shields.io/badge/Transformers-BioBERT%20%7C%20ClinicalBERT-yellow.svg)](https://huggingface.co/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg)]()
 
 > **MedGen** is an end-to-end multimodal deep learning framework designed to automatically generate structured, clinically accurate diagnostic radiology reports from multi-view chest radiographs (frontal and lateral). It integrates **Deformable & Semantic Dilated Convolutions**, a **Relational Memory-Driven Transformer Decoder**, and an **Explainable AI (Grad-CAM & Anatomical Finding Attribution)** suite.
