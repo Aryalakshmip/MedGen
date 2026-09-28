@@ -464,6 +464,5 @@ If you use MedGen or the ideas presented here in your research, thesis, or clini
 
 ## License & Acknowledgments
 
-- **Codebase License:** Distributed under the [MIT License](LICENSE).
 - **Caption Evaluation Code:** The `pycocoevalcap` subpackage is modified from [tylin/coco-caption](https://github.com/tylin/coco-caption) (BSD / Apache 2.0).
 - **Medical Datasets:** Use of IU X-Ray and MIMIC-CXR is subject to their respective terms of service and research use agreements.
